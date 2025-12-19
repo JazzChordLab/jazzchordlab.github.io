@@ -34,6 +34,7 @@ body {
    padding: 0;
    line-height: 1.6;
    font-weight: 100;
+   font-size: 20px;
 }
 
 h1 {
@@ -57,9 +58,9 @@ h1 {
    backdrop-filter: blur(6px);
    color: var(--text-contrast);
    border-radius: 22px;
-   padding: 16px 22px 18px;
+   padding: 24px 31px 26px;
    box-shadow: var(--card-glow), var(--shadow);
-   width: 320px;
+   width: 432px;
    box-sizing: border-box;
    text-align: center;
    display: flex;
@@ -70,14 +71,14 @@ h1 {
 
 .jazzChordLab-logo {
    display: block;
-   width: 200px;
+   width: 276px;
    margin: -70px auto 0;
    filter: drop-shadow(0 12px 30px rgba(0, 0, 0, 0.4));
 }
 
 .jazzChordLab-title {
    font-family: var(--font-main);
-   font-size: 1.45rem;
+   font-size: 1.9rem;
    margin: 0.6rem 0 0.1rem;
    /* font-weight: 700; */
    color: var(--text);
@@ -86,7 +87,7 @@ h1 {
 .tagline {
    margin: 0 0 1rem;
    color: #4b5563;
-   font-size: 0.95rem;
+   font-size: 1.25rem;
 }
 
 .cta {
@@ -101,7 +102,8 @@ h1 {
    color: var(--accent);
    text-decoration: none;
    font-weight: 600;
-   padding: 0.4rem 0.6rem;
+   font-size: 1.15rem;
+   padding: 0.6rem 0.85rem;
    border-radius: 10px;
    transition: background 120ms ease, color 120ms ease;
 }
