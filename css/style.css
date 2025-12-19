@@ -126,7 +126,7 @@ h1 {
    padding: 0.65rem 1.1rem;
    border-radius: 12px;
    border: 1px solid rgba(176, 70, 194, 0.7);
-   color: #6b21a8;
+   color: #e7e7e7;
    background: rgba(176, 70, 194, 0.08);
    text-decoration: none;
    font-weight: 600;
@@ -140,6 +140,6 @@ h1 {
 .secondary-link:hover {
    transform: translateY(-2px);
    background: rgba(176, 70, 194, 0.16);
-   color: #581c87;
+   color: #e7e7e7;
    box-shadow: 0 16px 36px rgba(0, 0, 0, 0.22);
 }
